@@ -1,0 +1,14 @@
+---
+description: 
+globs: 
+alwaysApply: true
+---
+- Python for backend.
+
+- HTML/JS for frontend.
+
+- SQL databases (never JSON file storage); separate for dev, test, prod.
+
+- Elasticsearch for search, hosted on elastic.co (dev and prod indexes).
+
+- Python tests for verification.
