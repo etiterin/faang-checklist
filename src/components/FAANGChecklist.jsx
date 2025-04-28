@@ -1,5 +1,5 @@
 import { useState, useEffect, useMemo } from "react";
-import { problems } from "../data/problems";
+import { problems, filterProblems, sortProblems } from "../data/problems";
 import { patterns, getAllTags, getAllCompanies } from "../data/patterns";
 import { getCachedFilteredProblems } from "../utils/filterCache";
 import { Header } from "./checklist/Header";
