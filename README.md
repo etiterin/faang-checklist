@@ -1,12 +1,62 @@
-# React + Vite
+# FAANG Interview Checklist
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A comprehensive checklist application to help you prepare for technical interviews at FAANG (Facebook/Meta, Amazon, Apple, Netflix, Google) and other top tech companies. Track your progress, filter problems by company, difficulty, and patterns, and organize your interview preparation effectively.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- 📋 Track your progress on interview problems
+- 🏢 Filter problems by company (Meta, Amazon, Apple, Netflix, Google, and more)
+- 📊 Sort problems by frequency, difficulty, or title
+- 🏷️ Filter by problem patterns and tags
+- 💾 Automatic progress saving in browser
+- 📱 Responsive design for all devices
+- 🌙 Dark mode support
 
-## Expanding the ESLint configuration
+## Getting Started
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### Prerequisites
+
+- Node.js (v14 or higher)
+- npm (v6 or higher)
+
+### Installation
+
+1. Clone the repository:
+```bash
+git clone https://github.com/etiterin/faang-checklist.git
+cd faang-checklist
+```
+
+2. Install dependencies:
+```bash
+npm install
+```
+
+3. Start the development server:
+```bash
+npm run dev
+```
+
+4. Open your browser and navigate to `http://localhost:5173`
+
+## Usage
+
+- Use the category navigation to switch between different problem categories
+- Filter problems by company, difficulty, pattern, or tags
+- Sort problems by frequency, difficulty, or title
+- Check off problems as you solve them
+- Your progress is automatically saved in your browser
+
+## Contributing
+
+Contributions are welcome! Please feel free to submit a Pull Request.
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## Acknowledgments
+
+- Data sourced from various interview preparation resources
+- Built with React and Vite
+- Styled with Tailwind CSS
